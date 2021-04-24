@@ -1,0 +1,146 @@
+#title{
+  background-color: #fff44f;
+  color: black;
+  font-family:'Montserrat';
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat';
+}
+  p{
+    font-family: Montserrat;
+    color: #4b4c4d;
+  }
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+  color: black;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.big-heading{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features{
+  background-color: white;
+  padding: 4% 15% 7%;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.feature-heading{
+  size: 1.5rem;
+  font-weight: bold;
+}
+.icon-feature{
+  color: #ffbe0f;
+  margin-bottom: 1rem;
+}
+.icon-feature:hover{
+color: #fff44f;
+}
+/*testimonial*/
+#testimonials{
+text-align: center;
+background-color: #ffbe0f;
+color: black;
+}
+.testimonial-text{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ffbe0f;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-image{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+#admins{
+  padding: 100px;
+  text-align: center;
+}
+.admins-column{
+  padding: 3% 2%;
+}
+.admin-image{
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.admin-heading{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.admin-card{
+  size: 1.5rem;
+  font-weight: bold;
+}
+#cta{
+  text-align: center;
+  background-color: #fff44f;
+  color: black;
+  padding: 7% 15%;
+}
+.cta-heading{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+  padding: 7% 15%;
+  background-color: white;
+  text-align: center;
+}
+.footer-icon{
+  margin: 20px 10px;
+}
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+  position: static;
+  transform: rotate(0);
+  }
+
+}
